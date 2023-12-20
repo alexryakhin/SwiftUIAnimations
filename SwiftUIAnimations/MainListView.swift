@@ -27,19 +27,3 @@ struct MainListView: View {
 #Preview {
     MainListView()
 }
-
-enum MainListItem: CaseIterable {
-    case first
-
-    var title: String {
-        switch self {
-        case .first: "First"
-        }
-    }
-
-    var view: some View {
-        switch self {
-        case .first: Text("First")
-        }
-    }
-}
