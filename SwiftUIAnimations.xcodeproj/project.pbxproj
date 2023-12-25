@@ -10,10 +10,12 @@
 		02074C682B32B24A00CD590A /* ColorChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02074C672B32B24A00CD590A /* ColorChange.swift */; };
 		02074C6A2B32B31800CD590A /* MainListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02074C692B32B31800CD590A /* MainListItem.swift */; };
 		02074C6C2B32B3AF00CD590A /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02074C6B2B32B3AF00CD590A /* Color+Extension.swift */; };
+		02074C6E2B32B8EE00CD590A /* ScaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02074C6D2B32B8EE00CD590A /* ScaleEffect.swift */; };
 		02208BA62B30113A00A7E588 /* SwiftUIAnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02208BA52B30113A00A7E588 /* SwiftUIAnimationsApp.swift */; };
 		02208BAA2B30113B00A7E588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02208BA92B30113B00A7E588 /* Assets.xcassets */; };
 		02208BAD2B30113B00A7E588 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02208BAC2B30113B00A7E588 /* Preview Assets.xcassets */; };
 		02208BB42B30115F00A7E588 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02208BB32B30115F00A7E588 /* MainListView.swift */; };
+		023CE22D2B395A7A00D36ACB /* AnimatableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023CE22C2B395A7A00D36ACB /* AnimatableProtocol.swift */; };
 		02DC9FFA2B315AE100C1A1D2 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DC9FF92B315AE100C1A1D2 /* NavigationBarView.swift */; };
 		02DC9FFC2B315BE000C1A1D2 /* ExpandingHeaderPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DC9FFB2B315BE000C1A1D2 /* ExpandingHeaderPictureView.swift */; };
 /* End PBXBuildFile section */
@@ -22,11 +24,13 @@
 		02074C672B32B24A00CD590A /* ColorChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChange.swift; sourceTree = "<group>"; };
 		02074C692B32B31800CD590A /* MainListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListItem.swift; sourceTree = "<group>"; };
 		02074C6B2B32B3AF00CD590A /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		02074C6D2B32B8EE00CD590A /* ScaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleEffect.swift; sourceTree = "<group>"; };
 		02208BA22B30113A00A7E588 /* SwiftUIAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02208BA52B30113A00A7E588 /* SwiftUIAnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationsApp.swift; sourceTree = "<group>"; };
 		02208BA92B30113B00A7E588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02208BAC2B30113B00A7E588 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02208BB32B30115F00A7E588 /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		023CE22C2B395A7A00D36ACB /* AnimatableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableProtocol.swift; sourceTree = "<group>"; };
 		02DC9FF92B315AE100C1A1D2 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		02DC9FFB2B315BE000C1A1D2 /* ExpandingHeaderPictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingHeaderPictureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +70,8 @@
 				02208BB32B30115F00A7E588 /* MainListView.swift */,
 				02074C692B32B31800CD590A /* MainListItem.swift */,
 				02074C672B32B24A00CD590A /* ColorChange.swift */,
+				02074C6D2B32B8EE00CD590A /* ScaleEffect.swift */,
+				023CE22C2B395A7A00D36ACB /* AnimatableProtocol.swift */,
 				02DC9FF92B315AE100C1A1D2 /* NavigationBarView.swift */,
 				02DC9FFB2B315BE000C1A1D2 /* ExpandingHeaderPictureView.swift */,
 				02208BA92B30113B00A7E588 /* Assets.xcassets */,
@@ -153,9 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				02208BB42B30115F00A7E588 /* MainListView.swift in Sources */,
+				02074C6E2B32B8EE00CD590A /* ScaleEffect.swift in Sources */,
 				02074C6C2B32B3AF00CD590A /* Color+Extension.swift in Sources */,
 				02074C682B32B24A00CD590A /* ColorChange.swift in Sources */,
 				02208BA62B30113A00A7E588 /* SwiftUIAnimationsApp.swift in Sources */,
+				023CE22D2B395A7A00D36ACB /* AnimatableProtocol.swift in Sources */,
 				02074C6A2B32B31800CD590A /* MainListItem.swift in Sources */,
 				02DC9FFC2B315BE000C1A1D2 /* ExpandingHeaderPictureView.swift in Sources */,
 				02DC9FFA2B315AE100C1A1D2 /* NavigationBarView.swift in Sources */,
